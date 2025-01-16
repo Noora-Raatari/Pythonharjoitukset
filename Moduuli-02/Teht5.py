@@ -14,5 +14,5 @@ lukuC = float (lukuC_str)
 paino_g = (luoti * lukuC) + (naula * lukuB) + (leiviska * lukuA)
 paino_kg = paino_g / 1000
 grammat = paino_g%1000
-print (f"paino nykymitoissa {paino_kg} kg ja {grammat:.2f} g")
+print (f"paino nykymitoissa {paino_kg: .2f} kg ja {grammat:.2f} g")
 
