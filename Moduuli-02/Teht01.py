@@ -1,1 +1,1 @@
-print(f"Hewwo Noora")
+print
