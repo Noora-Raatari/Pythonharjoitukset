@@ -1,7 +1,7 @@
 sukupuoli = input("Anna biologinen sukupuoli")
 veri= float (input("Anna hemoglobiiniarvo g/l"))
 
-elif (sukupuoli=='nainen' and 175>veri>=117) or (sukupuoli=='mies' and 195>veri>=134):
+if (sukupuoli=='nainen' and 175>veri>=117) or (sukupuoli=='mies' and 195>veri>=134):
     print("Hemoglobiinisi on normaali")
 
 elif (sukupuoli=='nainen' and veri<=117) or (sukupuoli=='mies' and veri<=134):
