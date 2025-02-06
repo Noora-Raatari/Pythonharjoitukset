@@ -46,7 +46,7 @@ lentokenttä1 = input("Anna ICAO-koodi nro 1: ")
 lentokenttä2= input ("Aanna ICAO-koodi nro 2:")
 kenttä1 = hae_kentan_tiedot(lentokenttä1)
 kenttä2 = hae_kentan_tiedot (lentokenttä2)
-print (f"Kentänt 1 koordinaatit {kenttä1}")
+print (f"Kentän 1 koordinaatit {kenttä1}")
 print (f"Kentän 2 koordinaatit {kenttä2}")
 laske_etäisyys(kenttä1,kenttä2)
 
