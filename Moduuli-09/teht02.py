@@ -25,3 +25,6 @@ print (f"Auton nopeus 2. kiihdytyksen jälkeen: {auto.nopeus}")
 
 auto.kiihdytä(50)
 print(f"Auton nopeus 3. kiihdytyksen jälkeen: {auto.nopeus}")
+
+auto.kiihdytä(-200)
+print(f"Auton nopeus hätäjarrutuksen jälkeen: {auto.nopeus}")

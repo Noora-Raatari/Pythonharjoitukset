@@ -10,9 +10,6 @@ class Auto:
         self.nopeus = 0
         self.matka = 0
 
-
-
-
     def kiihdytä (self, nopeuden_muutos):
         self.nopeus= nopeuden_muutos + self.nopeus
         if self.nopeus > self.huippunopeus:
@@ -33,7 +30,6 @@ for i in range(1,11):
 for i in range (len(autot)):
     autot[i]= Auto(autot[i], f"ABC-{i+1}", random.randint(100, 200))
 
-kilpailu_käynnissä = True
 
 while tavoitematka < 10000:
     for i in range (len(autot)):
@@ -45,7 +41,7 @@ else:
     autot.sort(key=lambda n: n.matka, reverse=True)
     print("\nKilpailu on päättynyt, tässä kaikkien 10 auton tulokset: \n")
     for i in range (len(autot)):
-       table = [["auton nimi",autot[i].nimi],["rekisterinumero", autot[i].rekisteri],["kuljettu matka",autot[i].matka]]
+       table = [["auton nimi",autot[i].nimi],["rekisterinumero", autot[i].rekisteri],["kuljettu matka",autot[i].matka,"km"] ]
        print(tabulate(table, tablefmt='fancygrid'))
 
 
