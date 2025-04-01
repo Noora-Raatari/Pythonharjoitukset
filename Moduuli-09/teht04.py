@@ -26,10 +26,8 @@ for i in range(1,11):
     kilpa_auto = f"kilpa-auto {i}"
     autot.append(kilpa_auto)
 
-
 for i in range (len(autot)):
     autot[i]= Auto(autot[i], f"ABC-{i+1}", random.randint(100, 200))
-
 
 while tavoitematka < 10000:
     for i in range (len(autot)):
